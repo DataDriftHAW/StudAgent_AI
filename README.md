@@ -68,3 +68,34 @@ The platform leverages:
    ```bash
    git clone https://github.com/yourusername/StudAgentAI.git
    cd StudAgentAI
+
+2. Create & activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Set up environment variables:
+   ```bash
+   cp .env.example .env
+
+## n8n Integration
+1. Install n8n locally (or use n8n cloud):
+   ```bash
+   npm install n8n -g
+   n8n
+2. Connect n8n workflows to StudAgentAI backend:
+
+## Docker Setup (Optional)
+   ```bash
+   docker-compose up --build
+
+
+
+
+
+
